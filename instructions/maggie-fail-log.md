@@ -74,7 +74,6 @@ To change the colours, I repleced <hex> in the following lines of code with the 
   background-color: #<hex>;
 }
 ```
-
 #### For the header:
 It should be noted that in the original code, the header was a gradient and thus kept that code. I would have changed it so that the gradient was not something happening at all, but instead just replaced all of the hex codes into the colour I wanted, causing the gradiation to not be noticeable. 
 ```
@@ -90,7 +89,7 @@ It should be noted that in the original code, the header was a gradient and thus
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
           box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
 ```
-### For the links
+#### For the links
 With the links, I decided to have them all be the same colour, regardless of hovering or use. I did this mainly because it meant I did not need to choose a third colour. 
 ```
 a { color: #<hex> !important; /* color of links */ }
@@ -98,14 +97,9 @@ a:hover { color: #<hex> !important; /* color of links when hover mouse over */ }
 a:active { color: #<hex> !important; /* color of links when active */ }
 a:visited { color: #<hex> !important; /* color of links after user has visited it */ }
 ```
-
-
-
-
-
-
-
-
-
-
-
+### Fixing the tooltips
+I also decided to do a little sprucing up of the tooltips so that they did not have any arbitrary capitalization. I did this by opening `~/sites/aa-sites-popup.csv` and editing the text there.
+### Editing Délįne
+Because of the emotional impact of the Délįne page, I decided that it would be a good idea to add a documentary in order to increase a connection between reader and subject. I added the video using youtube's embed feature, which I then placed into the page's code. I then moved the video around, refreshing the site at the same time in order to see what I was doing. I continued rearranging it and the other images on the page so that they worked better with the text wrapping it in an effort to avoid hanging lines. I also found mentions of other we have pages of and added a link to their respective pages. I then made the headers of the paragraphs smaller so that not all of the headers were the same. I also used CSS style padding to make sure the images looked correct and did not have text right against them. I also tested all of the links in the references section to make sure they were all still live, and found aternatives for broken ones. Finally, I tackled the content of the page, editing it so that it made more sense and was less repetitive, and added a "lasting impact" section to address continuing issues at the site. I also changed the spelling of Deline to Délįne because names have meaning, and the people there deserve to have their name spelled correctly.
+### Editing Port Radium
+I found this page to be much easier, especially after the pevious one. Once again, I rearranged the images and changed the padding so that they worked better with the text. I added a "lasting impact" section here as well, and again tested the links. I also added a new image that complimented the "lasting impact" section and showed Port Radium as it exists today. I found this necessary here (unlike Délįne) because Port Radium's changes were much more apparent and impactful. I added the image much like I added the Carleton Crest image, but instead put it into this code `<img src="<url>" style="float:left; padding-right:35px">`, and changed the style specifications to arrange the image where I wanted it to be.

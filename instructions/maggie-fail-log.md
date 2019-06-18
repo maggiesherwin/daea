@@ -52,7 +52,7 @@ With the new map, I decided that I wanted to add colour to the site that would c
 
 When I began working on editing the stylesheet, I noticed that the `.html` pages in the `~/sites/` folder and `index.html` were using different stylesheets, `~/sites/CSS/style.css` and `~/CSS/style.css` respictively. Given more time, I would have changed this, but as it was, I simply made sure that the two stylesheets were identical. 
 
-To change the header and footer colour, I repleced <hex> in the following lines of code with the hex code given to me by coolors.co. 
+To change the colours, I repleced <hex> in the following lines of code with the hex code given to me by coolors.co. 
 
 #### For the footer:
 ```
@@ -90,8 +90,14 @@ It should be noted that in the original code, the header was a gradient and thus
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
           box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
 ```
-
-
+### For the links
+With the links, I decided to have them all be the same colour, regardless of hovering or use. I did this mainly because it meant I did not need to choose a third colour. 
+```
+a { color: #<hex> !important; /* color of links */ }
+a:hover { color: #<hex> !important; /* color of links when hover mouse over */ }
+a:active { color: #<hex> !important; /* color of links when active */ }
+a:visited { color: #<hex> !important; /* color of links after user has visited it */ }
+```
 
 
 

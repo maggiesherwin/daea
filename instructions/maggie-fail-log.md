@@ -122,6 +122,8 @@ I would have also liked to add paths between sites, showing where the uranium wa
 
 Another interesting to add would have been something to show the effects of radiation in these sites, perhaps with a colour or new layer in the map. This would help readers not only see where the sites are, but also the effect that they leave even after being closed down. 
 
+### Editing other pages
+One last thing I did in this project was to help my group partners by taking the time to edit their pages, and sometimes also add another image to break up the text. I did this mainly because it is always helpful to have someone be able to come in and edit your work. Much of what I did was fixing grammar and small issues in order to make the text more readable. I also rearranged some content, so that the content actually matched the sub-headings.
 
 
 
